@@ -21,7 +21,7 @@ In ```./cfg/yolov7-w6-pose-custom.yaml```, just need to revise the nkpt (number 
 Now let's start to train your custom yolov7-keypoint model. The pre-training weight can be obtained in official page, see https://github.com/WongKinYiu/yolov7/tree/pose <br>
 #### DP mode
 ```
-python train_keypoint.py  --weights ./yolov7-w6-person.pt  --data data/custom.yaml  --hyp data/hyp.pose.yaml --cfg cfg/yolov7-w6-pose-custom.yaml --name yolov7-keypoint--kpt-label [--epoch] [--batch] [--linear-lr]
+python train_keypoint.py  --weights ./yolov7-w6-person.pt  --data data/custom.yaml --device 0,1,2,3  --hyp data/hyp.pose.yaml --cfg cfg/yolov7-w6-pose-custom.yaml --name yolov7-keypoint --kpt-label [--epoch] [--batch] [--linear-lr]
 ```
 #### DDP mode
 ```

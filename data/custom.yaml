@@ -1,0 +1,8 @@
+train: ../root_path/your_traget_path/yolo_labels/train.txt  # 118287 images
+val: ../root_path/your_traget_path/yolo_labels/val.txt      # 5000 images
+test: ../root_path/your_traget_path/yolo_labels/val.txt     # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+
+nc: 1 #num of class
+
+names: [ 'custom']  # label of each class

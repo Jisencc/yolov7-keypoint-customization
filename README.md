@@ -35,5 +35,5 @@ python detect.py  --weights ./[your_best].pt --source [your_testset_path] --kpt-
 https://github.com/WongKinYiu/yolov7/tree/pose <br>
 https://github.com/WongKinYiu/yolov7 <br>
 ## Further
-If you have any problems, welcome to communicate with me. <br>
+Any problems about this, welcome to communicate with me. <br>
 Email: chenjisen123@foxmail.com <br>
